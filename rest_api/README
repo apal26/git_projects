@@ -1,0 +1,9 @@
+1/ install flask in a python3 virtual environment
+
+  python3 -m venv flask
+  source flask/bin/activate
+  pip3 install flask
+
+2/ run 'python3 rest_api.py' in one terminal to start the server on port 5000
+3/ run 'curl_reqs.sh' to send REST requests to the server running in the other
+terminal
