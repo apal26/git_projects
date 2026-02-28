@@ -29,7 +29,7 @@ chain = prompt1 | llm
 
 print(type(chain))
 # launch a query
-query1 = "does science has a path to self-realization? Give a short answer."
+query1 = "In what scenarios are Gaussian mixture models useful? Give a short answer."
 response1 = chain.invoke({"question" : query1})
 print(type(response1))
 print(f"Agent response: {response1.content}")
