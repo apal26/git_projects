@@ -1,0 +1,8 @@
+One client and two MCP servers. Invoke like below:
+
+- python3 mcp_client.py math_server.py (to run the queries with math tools
+  available in math_server)
+- python3 mcp_client.py cmd_server.py (to run shell commands)
+  Example query: check if process chrome is running. use linux commands.
+
+
